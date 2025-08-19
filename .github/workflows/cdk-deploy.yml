@@ -21,6 +21,8 @@ jobs:
             REGION_AWS: ${{ vars.REGION_AWS }}
             MAIL_DOMAIN: ${{ vars.MAIL_DOMAIN }}
             MAIL_FROM_DOMAIN: ${{ vars.MAIL_FROM_DOMAIN }}
+            NOMBRE_DE_DEFECTO: ${{ vars.NOMBRE_DE_DEFECTO }}
+            CORREO_DE_DEFECTO: ${{ vars.CORREO_DE_DEFECTO }}
         steps:
             - name: Checkout Repositorio
               uses: actions/checkout@v4
